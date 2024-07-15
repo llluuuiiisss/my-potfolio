@@ -8,7 +8,7 @@ const TechStack = () => {
       <Container>
         <h1 className="text-center">Tech Stack</h1>
         <Row className={`mt-5 justify-content-md-center ${styles.row}`}>
-          <Col lg={2} md={4} className={styles.column}>
+          <Col lg={2} md={6} className={styles.column}>
             <h2>General</h2>
             <ul className={styles.noBullets}>
               <li>JavaScript</li>
@@ -20,7 +20,7 @@ const TechStack = () => {
               <li>C</li>
             </ul>
           </Col>
-          <Col lg={2} md={4} className={styles.column}>
+          <Col lg={2} md={6} className={styles.column}>
             <h2>Front-end</h2>
             <ul className={styles.noBullets}>
               <li>React</li>
@@ -34,7 +34,7 @@ const TechStack = () => {
               <li>JQuery</li>
             </ul>
           </Col>
-          <Col lg={2} md={4} className={styles.column}>
+          <Col lg={2} md={6} className={styles.column}>
             <h2>Back-end</h2>
             <ul className={styles.noBullets}>
               <li>Node</li>
@@ -46,7 +46,7 @@ const TechStack = () => {
               <li>Mongoose</li>
             </ul>
           </Col>
-          <Col lg={2} md={4} className={styles.column}>
+          <Col lg={2} md={6} className={styles.column}>
             <h2>Cloud</h2>
             <ul className={styles.noBullets}>
               <li>AWS</li>

@@ -44,5 +44,17 @@ li {
   font-size: 20px;
 }
 
-.vertical-timeline-element-work {
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px !important;
+  }
+  h2 {
+    font-size: 30px !important;
+  }
+  h3 {
+    font-size: 25px !important;
+  }
+  p {
+    font-size: 16px !important;
+  }
 }

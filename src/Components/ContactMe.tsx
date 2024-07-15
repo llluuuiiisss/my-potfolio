@@ -2,13 +2,14 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { PiGithubLogoFill } from "react-icons/pi";
-import { FaEnvelope } from "react-icons/fa";
+import { FaEnvelope, FaDownload } from "react-icons/fa";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaHome } from "react-icons/fa";
 import styles from "./ContactMe.module.css";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 import Tooltip from "react-bootstrap/Tooltip";
 import { useState } from "react";
+import { Button } from "react-bootstrap";
 
 const ContactMe = () => {
   const [toolTipText, setTooTipText] = useState("Click to copy");
@@ -90,6 +91,15 @@ const ContactMe = () => {
             +351 936 768 310
           </h3>
         </OverlayTrigger>
+
+        <a
+          className={styles.downloadBtn}
+          href="/luisFreitasCv.pdf"
+          download={"luisFreitasCv.pdf"}
+        >
+          <FaDownload></FaDownload>
+          Download Curriculum
+        </a>
 
         <div className={styles.divSocial}>
           <a
