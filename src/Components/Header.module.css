@@ -1,0 +1,31 @@
+.navLink {
+  font-size: 20px;
+  font-weight: normal;
+  color: var(--orange);
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+.darkNav {
+  background-color: #000 !important;
+  border-bottom: 1px solid var(--orange);
+}
+.darkNav .navLink {
+  color: #fff;
+}
+.navLink:focus {
+  color: var(--orange);
+}
+.darkNav .navLink:focus {
+  color: #fff;
+}
+.webName {
+  color: #fff;
+  transform: translateY(5px);
+}
+.webName:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.navLink {
+  text-align: right;
+}

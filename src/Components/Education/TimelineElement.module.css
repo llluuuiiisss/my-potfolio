@@ -1,0 +1,16 @@
+.boxWork > div {
+  box-shadow: -3px 3px 0 var(--orange);
+}
+.boxEducation > div {
+  box-shadow: -3px 3px 0 rgb(30, 196, 202);
+}
+.dateText {
+  color: #fff;
+}
+
+.boxWork h3 {
+  color: var(--orange);
+}
+.boxEducation h3 {
+  color: rgb(30, 196, 202);
+}

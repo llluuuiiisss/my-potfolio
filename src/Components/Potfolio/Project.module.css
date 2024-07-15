@@ -1,0 +1,26 @@
+.card {
+  border-width: 2px;
+}
+.card a,
+.card button {
+  color: #fff !important;
+}
+/* .card img {
+  border-bottom: 3px solid var(--orange);
+} */
+.cardParagraph {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.projectDiv {
+  padding: 0 30px;
+}
+.projectDiv img {
+  width: 100%;
+  border: 3px solid #1ec4ca;
+  margin-bottom: 5px;
+}
+.projectDiv a {
+  color: #fff;
+}

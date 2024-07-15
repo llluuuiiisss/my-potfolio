@@ -1,0 +1,26 @@
+.bannerContainer {
+  height: calc(100vh - 62px);
+
+  display: flex;
+  align-items: center;
+}
+
+.presentation {
+  font-size: 30px;
+}
+
+.name {
+  font-size: 128px;
+  font-weight: normal;
+  margin-top: -15px;
+  margin-left: -7px;
+}
+
+.role {
+  font-size: 80px;
+  color: var(--orange);
+  font-weight: normal;
+  margin-top: -15px;
+  margin-bottom: 25px;
+  margin-left: -2px;
+}

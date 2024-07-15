@@ -1,0 +1,15 @@
+$primary: #fff;
+$secondary: #ff8000;
+$third: #6d6d6d;
+$dark: #fff;
+$light: #f2efee;
+$success: #66ab57;
+$info: #9ab6da;
+$warning: #e49b1f;
+$danger: #f44336;
+$tooltip-bg: #eee;
+$tooltip-color: #000;
+@import "~react-vertical-timeline-component/style.min.css";
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+$--bs-font-sans-serif: "Poppins", sans-serif;

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  min-height: calc(100vh - 62px);
+  display: flex;
+  align-items: center;
+}
+
+.noBullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.row div {
+  margin: 0 30px;
+}
+.container {
+  padding: 80px;
+}
+
+@media only screen and (max-width: 991px) {
+  .column {
+    margin-top: 30px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .column {
+    text-align: center;
+  }
+}
